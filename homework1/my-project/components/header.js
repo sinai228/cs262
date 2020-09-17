@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
   header: {
     height: 90,
     paddingTop: 45,
-    backgroundColor: 'lightblue'
+    backgroundColor: 'lightblue',
   },
   title: {
     fontWeight: 'bold',
