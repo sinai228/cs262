@@ -1,19 +1,19 @@
 /* Name: Sinai Park(sp46)
 CS 262_Lab6
-10 / 3 / 2020 */
+10 / 7 / 2020 */
 
 
 import React, { useEffect, useState } from 'react';
-import { ActivityIndicator, FlatList, Text, View } from 'react-native';
+import { ActivityIndicator, FlatList, Text, View, Image } from 'react-native';
 
 export default App = () => {
   const [isLoading, setLoading] = useState(true);
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch('https://reactnative.dev/movies.json')
+    fetch('https://www.googleapis.com/books/v1/volumes?q=jane%20austen')
       .then((response) => response.json())
-      .then((json) => setData(json.movies))
+      .then((json) => setData(json.items))
       .catch((error) => console.error(error))
       .finally(() => setLoading(false));
   }, []);
@@ -25,10 +25,11 @@ export default App = () => {
           data={data}
           keyExtractor={({ id }, index) => id}
           renderItem={({ item }) => (
-            <Text>{item.title}, {item.releaseYear}</Text>
+            <Text >{item.volumeInfo.title}, published in {item.volumeInfo.publishedDate} {'\n'} </Text>
           )}
         />
       )}
     </View>
   );
 };
+
