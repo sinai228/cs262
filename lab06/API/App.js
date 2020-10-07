@@ -1,6 +1,6 @@
 /* Name: Sinai Park(sp46)
 CS 262_Lab6
-10 / 7 / 2020 */
+10 / 3 / 2020 */
 
 
 import React, { useEffect, useState } from 'react';
