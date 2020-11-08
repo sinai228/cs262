@@ -3,7 +3,17 @@
 This is the data service application for the [CS 262 sample Monopoly project](https://github.com/calvin-cs262-organization/monopoly-project) 
 and it is deployed here:
           
-<https://cs262-monopoly-service.herokuapp.com/>
+       
+<https://boiling-woodland-20833.herokuapp.com/>
+  
+<https://boiling-woodland-20833.herokuapp.com/players>
+       
+<https://boiling-woodland-20833.herokuapp.com/players/1>
+       
+<https://boiling-woodland-20833.herokuapp.com/players/-1>
+       
+<https://boiling-woodland-20833.herokuapp.com/players/blob>
+
 
 It is based on the standard Heroku with Node.js tutorial.
 
