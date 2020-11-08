@@ -34,11 +34,11 @@ Which of these endpoints implement actions that are idempotent? nullipotent?
 The endpoints players have PUT, GET, POST, DELETE, of which PUT DELETE are idempotent and GET POST are nullipodent.
 
 Is the service RESTful? If not, why not? If so, what key features make it RESTful.
-The service is RESTful, because it has the following features: Already defined
-It uses HTTP (send request, GET, PUT, POST, DELETE)
-Transfers XML/JSON data
-Uses URL structure (e.g. /players/1)
-Are stateless (servers aren't keeping the status)
+The service is RESTful, because it has the following features: <br/>
+It uses HTTP (send request, GET, PUT, POST, DELETE)<br/>
+Transfers XML/JSON data<br/>
+Uses URL structure (e.g. /players/1)<br/>
+Are stateless (servers aren't keeping the status)<br/>
 
 Is there any evidence in your implementation of an impedance mismatch?
 Yes there is impedance mismatches because of differences between the database model and the programming language model.
