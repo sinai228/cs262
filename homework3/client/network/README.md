@@ -8,4 +8,3 @@ https://boiling-woodland-20833.herokuapp.com/playergames
 
 Copy your client from homework 2 and modify it to read/present the data from the join query you implemented
 
-Here are the following screenshots of how it looks like
