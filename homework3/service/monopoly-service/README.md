@@ -23,12 +23,12 @@ tab in your application in the Heroku dashboard.
  
 What are the (active) URLs for your data service?
 
-https://boiling-woodland-20833.herokuapp.com/
-https://boiling-woodland-20833.herokuapp.com/players
-https://boiling-woodland-20833.herokuapp.com/players/id
-https://boiling-woodland-20833.herokuapp.com/player_game
-https://boiling-woodland-20833.herokuapp.com/player_game/id
-https://boiling-woodland-20833.herokuapp.com/playergames
+https://boiling-woodland-20833.herokuapp.com/ <br/>
+https://boiling-woodland-20833.herokuapp.com/players<br/>
+https://boiling-woodland-20833.herokuapp.com/players/id<br/>
+https://boiling-woodland-20833.herokuapp.com/player_game<br/>
+https://boiling-woodland-20833.herokuapp.com/player_game/id<br/>
+https://boiling-woodland-20833.herokuapp.com/playergames<br/>
 
 Which of these endpoints implement actions that are idempotent? nullipotent?
 The endpoints players have PUT, GET, POST, DELETE, of which PUT DELETE are idempotent and GET POST are nullipodent.
