@@ -20,3 +20,25 @@ master/main branch of your
 service repo; do this by following the instructions under the &ldquo;Deploy&rdquo; 
 tab in your application in the Heroku dashboard.
  
+ 
+What are the (active) URLs for your data service?
+
+https://boiling-woodland-20833.herokuapp.com/ <br/>
+https://boiling-woodland-20833.herokuapp.com/players<br/>
+https://boiling-woodland-20833.herokuapp.com/players/id<br/>
+https://boiling-woodland-20833.herokuapp.com/player_game<br/>
+https://boiling-woodland-20833.herokuapp.com/player_game/id<br/>
+https://boiling-woodland-20833.herokuapp.com/playergames<br/>
+
+Which of these endpoints implement actions that are idempotent? nullipotent?
+The endpoints players have PUT, GET, POST, DELETE, of which PUT DELETE are idempotent and GET POST are nullipodent.
+
+Is the service RESTful? If not, why not? If so, what key features make it RESTful.
+The service is RESTful, because it has the following features: <br/>
+It uses HTTP (send request, GET, PUT, POST, DELETE)<br/>
+Transfers XML/JSON data<br/>
+Uses URL structure (e.g. /players/1)<br/>
+Are stateless (servers aren't keeping the status)<br/>
+
+Is there any evidence in your implementation of an impedance mismatch?
+Yes there is impedance mismatches because of differences between the database model and the programming language model.
