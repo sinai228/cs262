@@ -1,0 +1,8 @@
+For this lab, I used the extention called Prettier-code formatter on VS code.
+I could just press CMD + Shift + P to format the text of the code.
+Prettier formatted all the imports, listing, objects, etc all be spaced out and put on a new line. Although it's a good formatting code,
+the listing way made the code look rather too long.
+When looking at the screens home.js and reportPage.js in my team freespace project, I noticed that it made the code come into view in one glance,
+because all the objects, values, and other inputs of each component was listed out.
+It made a 90 line code go upto 170 lines of code.
+I didn't have any other suggestions to make, except documentations for places where it was harder to make sense of.
